@@ -1,0 +1,15 @@
+# Build artifacts
+*.exe
+*.obj
+*.o
+*.out
+
+# Log files
+*.log
+raft_state_*.dat
+
+# Visual Studio / IDE files
+.vscode/
+.vs/
+*.user
+*.suo
