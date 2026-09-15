@@ -13,3 +13,4 @@ raft_state_*.dat
 .vs/
 *.user
 *.suo
+ts.txt
