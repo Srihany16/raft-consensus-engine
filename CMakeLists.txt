@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Threads REQUIRED)
 
-add_executable(raft_node src/main.cpp src/raft_node.cpp src/network.cpp)
+add_executable(raft_node src/main.cpp src/raft_node.cpp src/network.cpp src/memory_pool.cpp)
 target_link_libraries(raft_node PRIVATE Threads::Threads)
 
 if(WIN32)
