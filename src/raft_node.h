@@ -2,11 +2,12 @@
 #define RAFT_NODE_H
 
 #include <string>
-#include <string>
+#include <vector>
 #include <mutex>
 #include <thread>
 #include <atomic>
 #include "memory_pool.h"
+#include <chrono>
 
 enum class NodeState {
     FOLLOWER,
